@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="game.css">
+	<title>Three in a Row</title>
+</head>
+<body>
+<div class="fundamental" id="fundamental">
+    <div class="over-block" id="over-block">
+      <img class="real-gift hide" id="real-gift" src="images/coin/r_g.png" />
+      <div class="menu_g hide" id="menu_g">
+        <div class="promo" id="promo">Промокод<br>PROMOKOD22</div>
+        <div class="continue_g" id="continue_g">Продолжить</div>
+      </div>
+      <div class="menu_b hide" id="menu_b">
+        <div class="info_b" id="info_b">Поздравляем!<br><br>
+            <div class="totalscore_info" id="totalscore_info"></div><br>
+            <div class="level_info" id="level_info"></div><br>
+            <div class="score_info" id="score_info"></div><br>
+          <div class="continue_b" id="continue_b">Заново</div>
+          <div class="exit_b" id="exit_b">Выйти</div>
+        </div>
+      </div>
+    </div>
+    <div class="level" id="level"><div class="level-cup" id="level-cup"></div>0</div>
+    <div class="countdown" id="countdown">0:00</div>
+    <div class="score" id="score"><div class="scorebar-line" id="scorebar-line">0/1000</div></div>
+  <div class="gem-game" id="gem-game">
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
